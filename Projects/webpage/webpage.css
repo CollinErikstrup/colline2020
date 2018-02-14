@@ -29,8 +29,8 @@ html {
 
 .box {
   display: inline-block;
-  width: 50%;
-  height: 100vh;
+  width: 50%
+  height 100vh;
   background: #017709;
   padding: 20px;
 }
@@ -59,3 +59,6 @@ html {
 .another {
   background-image: url(https://github.com/CollinErikstrup/colline2020/i/download.gif);
 }
+.#{$fa-css-prefix}-facebook:before { content: fa-content($fa-var-facebook);}
+.#{$fa-css-prefix}-database:before { content: fa-content($fa-var-database);}
+.#{$fa-css-prefix}-camera:before { content: fa-content($fa-var-camera);}
